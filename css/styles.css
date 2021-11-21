@@ -121,10 +121,6 @@ p {
   border-bottom: 1px solid #ececec;
 }
 
-.outline {
-  /* color: BLUE; */
-  outline: 1px solid blue;
-}
 .nav-style {
   display: flex;
   align-items: center;
@@ -449,10 +445,6 @@ p {
   margin-bottom: 50px;
 }
 
-.wtf {
-  width: 370px;
-}
-
 .boxes .item {
   display: flex;
   position: relative;
@@ -463,8 +455,16 @@ p {
   bottom: 0;
   left: 0;
   color: var(--background-white);
+  width: 100%;
 }
 /* Наша команда */
+.boxes p {
+  text-align: center;
+  margin-top: 27px;
+  margin-bottom: 27px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .team h3 {
   font-weight: 500;
